@@ -52,6 +52,8 @@
       var expanded = toggle.getAttribute('aria-expanded') === 'true';
       expanded ? close() : open();
     });
+    var closeBtn = document.querySelector('[data-nav-close]');
+    if (closeBtn) closeBtn.addEventListener('click', close);
     if (backdrop) backdrop.addEventListener('click', close);
     drawer.querySelectorAll('a').forEach(function (link) {
       link.addEventListener('click', close);
