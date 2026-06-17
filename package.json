@@ -1,0 +1,14 @@
+{
+  "name": "ankitacare-website",
+  "version": "1.0.0",
+  "description": "Ankita's Care Clinic — prenatal wellness clinic website",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
