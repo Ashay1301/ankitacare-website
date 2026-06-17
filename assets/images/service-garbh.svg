@@ -1,0 +1,184 @@
+<svg viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="garbhBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FBE3EA"/>
+      <stop offset="100%" stop-color="#F7C9D6" stop-opacity="0.2"/>
+    </radialGradient>
+    <radialGradient id="garbhGlow" cx="50%" cy="60%" r="60%">
+      <stop offset="0%" stop-color="#FDF2F5" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#F0A9BE" stop-opacity="0.2"/>
+    </radialGradient>
+    <radialGradient id="garbhSkin" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FDF2F5"/>
+      <stop offset="100%" stop-color="#F7C9D6"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="210" cy="215" r="190" fill="url(#garbhBg)"/>
+
+  <!-- ── Concentric sound / energy rings (emanating from belly/heart) ── -->
+  <circle cx="210" cy="248" r="64" stroke="#F0A9BE" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.4"/>
+  <circle cx="210" cy="248" r="94" stroke="#E5849E" stroke-width="1" stroke-dasharray="3 6" opacity="0.28"/>
+  <circle cx="210" cy="248" r="128" stroke="#F0A9BE" stroke-width="1" stroke-dasharray="2 8" opacity="0.2"/>
+  <circle cx="210" cy="248" r="162" stroke="#9CB29C" stroke-width="1" stroke-dasharray="2 10" opacity="0.15"/>
+
+  <!-- ── Lotus flower at the base ── -->
+  <g transform="translate(210 380)">
+    <!-- Outer petals -->
+    <ellipse cx="0" cy="-26" rx="14" ry="22" fill="#F0A9BE" opacity="0.6"/>
+    <ellipse cx="0" cy="-26" rx="14" ry="22" fill="#F0A9BE" opacity="0.6" transform="rotate(40)"/>
+    <ellipse cx="0" cy="-26" rx="14" ry="22" fill="#F0A9BE" opacity="0.6" transform="rotate(80)"/>
+    <ellipse cx="0" cy="-26" rx="14" ry="22" fill="#F0A9BE" opacity="0.6" transform="rotate(120)"/>
+    <ellipse cx="0" cy="-26" rx="14" ry="22" fill="#F0A9BE" opacity="0.6" transform="rotate(160)"/>
+    <ellipse cx="0" cy="-26" rx="14" ry="22" fill="#F0A9BE" opacity="0.6" transform="rotate(200)"/>
+    <ellipse cx="0" cy="-26" rx="14" ry="22" fill="#F0A9BE" opacity="0.6" transform="rotate(240)"/>
+    <ellipse cx="0" cy="-26" rx="14" ry="22" fill="#F0A9BE" opacity="0.6" transform="rotate(280)"/>
+    <ellipse cx="0" cy="-26" rx="14" ry="22" fill="#F0A9BE" opacity="0.6" transform="rotate(320)"/>
+    <!-- Inner petals -->
+    <ellipse cx="0" cy="-18" rx="9" ry="15" fill="#E5849E" opacity="0.75"/>
+    <ellipse cx="0" cy="-18" rx="9" ry="15" fill="#E5849E" opacity="0.75" transform="rotate(45)"/>
+    <ellipse cx="0" cy="-18" rx="9" ry="15" fill="#E5849E" opacity="0.75" transform="rotate(90)"/>
+    <ellipse cx="0" cy="-18" rx="9" ry="15" fill="#E5849E" opacity="0.75" transform="rotate(135)"/>
+    <ellipse cx="0" cy="-18" rx="9" ry="15" fill="#E5849E" opacity="0.75" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-18" rx="9" ry="15" fill="#E5849E" opacity="0.75" transform="rotate(225)"/>
+    <ellipse cx="0" cy="-18" rx="9" ry="15" fill="#E5849E" opacity="0.75" transform="rotate(270)"/>
+    <ellipse cx="0" cy="-18" rx="9" ry="15" fill="#E5849E" opacity="0.75" transform="rotate(315)"/>
+    <!-- Center -->
+    <circle r="12" fill="#F7C9D6"/>
+    <circle r="6" fill="#E5849E" opacity="0.7"/>
+  </g>
+
+  <!-- ── Floating musical notes ── -->
+  <!-- Note 1 (top left) -->
+  <g transform="translate(88 118)" opacity="0.45">
+    <line x1="0" y1="0" x2="0" y2="-22" stroke="#E5849E" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="-4" cy="0" rx="7" ry="5" fill="#E5849E" transform="rotate(-20)"/>
+    <line x1="0" y1="-22" x2="12" y2="-18" stroke="#E5849E" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- Note 2 (top right) -->
+  <g transform="translate(340 108)" opacity="0.42">
+    <line x1="0" y1="0" x2="0" y2="-20" stroke="#9CB29C" stroke-width="2" stroke-linecap="round"/>
+    <ellipse cx="-3" cy="0" rx="6" ry="4.5" fill="#9CB29C" transform="rotate(-20)"/>
+  </g>
+  <!-- Note 3 (right) -->
+  <g transform="translate(365 210)" opacity="0.38">
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#E5849E" stroke-width="2" stroke-linecap="round"/>
+    <ellipse cx="-3" cy="0" rx="6" ry="4" fill="#E5849E" transform="rotate(-20)"/>
+    <line x1="0" y1="-18" x2="10" y2="-14" stroke="#E5849E" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- ── Stars / sparkles ── -->
+  <path d="M130 62 L132 56 L134 62 L140 64 L134 66 L132 72 L130 66 L124 64Z" fill="#E5849E" opacity="0.4"/>
+  <path d="M285 50 L287 45 L289 50 L294 52 L289 54 L287 59 L285 54 L280 52Z" fill="#9CB29C" opacity="0.4"/>
+  <path d="M58 248 L60 243 L62 248 L67 250 L62 252 L60 257 L58 252 L53 250Z" fill="#E5849E" opacity="0.35"/>
+  <path d="M375 288 L376.5 284 L378 288 L382 289.5 L378 291 L376.5 295 L375 291 L371 289.5Z" fill="#9CB29C" opacity="0.38"/>
+
+  <!-- ── Botanical leaves ── -->
+  <path d="M28 168 C35 138 62 140 58 168 C50 178 28 182 28 168Z" fill="#9CB29C" opacity="0.6"/>
+  <line x1="28" y1="168" x2="55" y2="148" stroke="#7E967E" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M380 168 C388 140 412 144 408 170 C400 180 378 182 380 168Z" fill="#9CB29C" opacity="0.55"/>
+
+  <!-- ── WOMAN IN LOTUS MEDITATION POSE ── -->
+
+  <!-- Aura glow behind figure -->
+  <ellipse cx="210" cy="248" r="88" fill="url(#garbhGlow)"/>
+
+  <!-- Hair (bun at top of head) -->
+  <ellipse cx="210" cy="88" rx="46" ry="48" fill="#C25B79"/>
+  <ellipse cx="196" cy="72" rx="20" ry="16" fill="#C25B79"/>
+  <!-- Hair wisps to sides -->
+  <path d="M166 108 Q160 128 164 148" stroke="#C25B79" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M254 108 Q260 126 256 148" stroke="#C25B79" stroke-width="12" stroke-linecap="round" fill="none"/>
+
+  <!-- Head -->
+  <ellipse cx="210" cy="92" rx="42" ry="46" fill="url(#garbhSkin)"/>
+
+  <!-- Neck -->
+  <path d="M200 135 Q207 145 212 145 Q217 145 220 135 L218 160 L202 160Z" fill="url(#garbhSkin)"/>
+
+  <!-- Body (simplified lotus-seated, upright) -->
+  <!-- Upper body -->
+  <path d="M176 164
+    C 168 185 165 208 168 232
+    C 172 255 182 272 192 288
+    L 228 288
+    C 238 272 248 255 252 232
+    C 255 208 252 185 244 164
+    L 176 164 Z"
+    fill="#C25B79"/>
+
+  <!-- Baby belly overlay -->
+  <ellipse cx="210" cy="246" rx="62" ry="58" fill="#F0A9BE" opacity="0.65"/>
+  <ellipse cx="204" cy="234" rx="26" ry="32" fill="white" opacity="0.14"/>
+
+  <!-- ── Cross-legged legs (lotus base) ── -->
+  <!-- Left leg going right across -->
+  <path d="M192 292
+    C 180 302 158 310 136 314
+    C 118 316 102 312 94 304"
+    stroke="#C25B79" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M192 292
+    C 180 302 158 310 136 314
+    C 118 316 102 312 94 304"
+    stroke="#D86C8A" stroke-width="18" stroke-linecap="round" fill="none"/>
+
+  <!-- Right leg going left across -->
+  <path d="M228 292
+    C 240 302 262 310 284 314
+    C 302 316 318 312 326 304"
+    stroke="#C25B79" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M228 292
+    C 240 302 262 310 284 314
+    C 302 316 318 312 326 304"
+    stroke="#D86C8A" stroke-width="18" stroke-linecap="round" fill="none"/>
+
+  <!-- Feet (at sides) -->
+  <ellipse cx="96" cy="316" rx="18" ry="12" fill="url(#garbhSkin)"/>
+  <ellipse cx="324" cy="316" rx="18" ry="12" fill="url(#garbhSkin)"/>
+
+  <!-- ── Arms in gyan mudra (resting on knees) ── -->
+  <!-- Left arm -->
+  <path d="M176 180
+    C 155 198 138 218 125 240
+    C 116 256 112 272 116 285"
+    stroke="#C25B79" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M176 180
+    C 155 198 138 218 125 240
+    C 116 256 112 272 116 285"
+    stroke="#D86C8A" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <!-- Left hand (open, mudra) -->
+  <ellipse cx="116" cy="290" rx="16" ry="12" fill="url(#garbhSkin)"/>
+  <!-- Mudra circle (thumb & index touch) -->
+  <circle cx="116" cy="290" r="5" stroke="#F0A9BE" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <!-- Right arm -->
+  <path d="M244 180
+    C 265 198 282 218 295 240
+    C 304 256 308 272 304 285"
+    stroke="#C25B79" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M244 180
+    C 265 198 282 218 295 240
+    C 304 256 308 272 304 285"
+    stroke="#D86C8A" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <!-- Right hand (mudra) -->
+  <ellipse cx="304" cy="290" rx="16" ry="12" fill="url(#garbhSkin)"/>
+  <circle cx="304" cy="290" r="5" stroke="#F0A9BE" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <!-- ── Small floating lotus buds ── -->
+  <g transform="translate(72 332) scale(0.7)">
+    <ellipse cx="0" cy="-14" rx="8" ry="12" fill="#F0A9BE" opacity="0.65"/>
+    <ellipse cx="0" cy="-14" rx="8" ry="12" fill="#F0A9BE" opacity="0.65" transform="rotate(60)"/>
+    <ellipse cx="0" cy="-14" rx="8" ry="12" fill="#F0A9BE" opacity="0.65" transform="rotate(-60)"/>
+    <circle r="6" fill="#F7C9D6"/>
+  </g>
+  <g transform="translate(348 332) scale(0.7)">
+    <ellipse cx="0" cy="-14" rx="8" ry="12" fill="#F0A9BE" opacity="0.65"/>
+    <ellipse cx="0" cy="-14" rx="8" ry="12" fill="#F0A9BE" opacity="0.65" transform="rotate(60)"/>
+    <ellipse cx="0" cy="-14" rx="8" ry="12" fill="#F0A9BE" opacity="0.65" transform="rotate(-60)"/>
+    <circle r="6" fill="#F7C9D6"/>
+  </g>
+
+  <!-- Om / sacred symbol hint (very subtle) -->
+  <text x="210" y="256" font-size="18" text-anchor="middle" fill="#E5849E" opacity="0.18" font-family="serif">ॐ</text>
+</svg>

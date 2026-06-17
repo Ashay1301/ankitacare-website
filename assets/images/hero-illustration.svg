@@ -1,0 +1,144 @@
+<svg viewBox="0 0 480 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="55%" r="50%">
+      <stop offset="0%" stop-color="#FBE3EA"/>
+      <stop offset="100%" stop-color="#F7C9D6" stop-opacity="0.3"/>
+    </radialGradient>
+    <radialGradient id="bellyGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FDF2F5"/>
+      <stop offset="100%" stop-color="#F0A9BE"/>
+    </radialGradient>
+    <radialGradient id="skinGrad" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FDF2F5"/>
+      <stop offset="100%" stop-color="#F7C9D6"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ── Background ── -->
+  <circle cx="240" cy="288" r="215" fill="url(#bgGlow)"/>
+  <circle cx="240" cy="288" r="168" fill="#FBE3EA" opacity="0.35"/>
+
+  <!-- ── Leaves top-left ── -->
+  <path d="M30 82 C38 42 78 36 84 72 C70 84 42 88 30 82Z" fill="#9CB29C"/>
+  <line x1="30" y1="82" x2="80" y2="52" stroke="#7E967E" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M8 128 C18 88 58 90 56 130 C44 140 14 148 8 128Z" fill="#9CB29C" opacity="0.8"/>
+  <line x1="8" y1="128" x2="52" y2="100" stroke="#7E967E" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M58 48 C68 12 108 14 102 52 C88 64 54 68 58 48Z" fill="#7E967E" opacity="0.8"/>
+  <line x1="58" y1="48" x2="98" y2="28" stroke="#647A64" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M18 172 C22 140 55 140 52 170 C43 180 18 186 18 172Z" fill="#9CB29C" opacity="0.6"/>
+
+  <!-- ── Leaves bottom-right ── -->
+  <path d="M412 455 C448 438 468 468 456 496 C440 504 410 490 412 455Z" fill="#9CB29C"/>
+  <line x1="412" y1="455" x2="452" y2="488" stroke="#7E967E" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M438 415 C474 408 484 442 468 460 C452 468 432 455 438 415Z" fill="#7E967E" opacity="0.8"/>
+  <line x1="438" y1="415" x2="470" y2="452" stroke="#647A64" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M460 380 C488 378 490 408 476 420 C464 426 450 412 460 380Z" fill="#9CB29C" opacity="0.65"/>
+
+  <!-- ── Small flower top-right ── -->
+  <g transform="translate(388 96)">
+    <ellipse cx="0" cy="-14" rx="6" ry="9" fill="#E5849E" opacity="0.7"/>
+    <ellipse cx="0" cy="-14" rx="6" ry="9" fill="#E5849E" opacity="0.7" transform="rotate(60)"/>
+    <ellipse cx="0" cy="-14" rx="6" ry="9" fill="#E5849E" opacity="0.7" transform="rotate(120)"/>
+    <ellipse cx="0" cy="-14" rx="6" ry="9" fill="#E5849E" opacity="0.7" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-14" rx="6" ry="9" fill="#E5849E" opacity="0.7" transform="rotate(240)"/>
+    <ellipse cx="0" cy="-14" rx="6" ry="9" fill="#E5849E" opacity="0.7" transform="rotate(300)"/>
+    <circle r="7" fill="#F7C9D6"/>
+  </g>
+
+  <!-- ── Small flower bottom-left ── -->
+  <g transform="translate(72 430)">
+    <ellipse cx="0" cy="-11" rx="5" ry="7" fill="#9CB29C" opacity="0.7"/>
+    <ellipse cx="0" cy="-11" rx="5" ry="7" fill="#9CB29C" opacity="0.7" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-11" rx="5" ry="7" fill="#9CB29C" opacity="0.7" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-11" rx="5" ry="7" fill="#9CB29C" opacity="0.7" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-11" rx="5" ry="7" fill="#9CB29C" opacity="0.7" transform="rotate(288)"/>
+    <circle r="5" fill="#9CB29C"/>
+  </g>
+
+  <!-- ── Decorative dots ── -->
+  <circle cx="148" cy="50" r="4.5" fill="#E5849E" opacity="0.5"/>
+  <circle cx="162" cy="36" r="3" fill="#F0A9BE" opacity="0.6"/>
+  <circle cx="136" cy="66" r="3" fill="#E5849E" opacity="0.4"/>
+  <circle cx="345" cy="488" r="5" fill="#E5849E" opacity="0.4"/>
+  <circle cx="358" cy="476" r="3.5" fill="#F0A9BE" opacity="0.5"/>
+  <circle cx="104" cy="346" r="3" fill="#9CB29C" opacity="0.4"/>
+  <circle cx="410" cy="290" r="4" fill="#E5849E" opacity="0.3"/>
+
+  <!-- ── Heartbeat decoration ── -->
+  <path d="M62 368 L82 368 L94 344 L106 392 L118 356 L130 374 L142 368 L168 368"
+    stroke="#E5849E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+
+  <!-- ── WOMAN FIGURE ── -->
+
+  <!-- Hair (drawn before head so head covers front) -->
+  <!-- Hair volume / bun at top -->
+  <ellipse cx="226" cy="106" rx="60" ry="62" fill="#C25B79"/>
+  <!-- Bun -->
+  <ellipse cx="205" cy="90" rx="26" ry="22" fill="#C25B79"/>
+  <!-- Hair sides hanging down -->
+  <path d="M186 150 Q178 185 182 220 Q184 240 190 252" stroke="#C25B79" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M268 150 Q272 180 268 210 Q265 230 262 250" stroke="#C25B79" stroke-width="18" stroke-linecap="round" fill="none"/>
+
+  <!-- Head -->
+  <ellipse cx="230" cy="118" rx="50" ry="54" fill="url(#skinGrad)"/>
+
+  <!-- Ear -->
+  <ellipse cx="278" cy="122" rx="8" ry="11" fill="#F7C9D6"/>
+
+  <!-- Neck -->
+  <path d="M216 168 Q224 178 232 178 Q240 178 246 168 L244 200 L218 200Z" fill="url(#skinGrad)"/>
+
+  <!-- ── Dress / body ── -->
+  <path d="M185 205
+    C 175 240 170 278 175 316
+    C 178 352 190 388 204 422
+    C 214 445 226 455 240 458
+    C 254 455 266 445 276 422
+    C 290 388 302 352 305 316
+    C 310 278 305 240 295 205
+    L 185 205 Z"
+    fill="#E5849E"/>
+
+  <!-- Belly overlay (lighter, shows baby bump) -->
+  <ellipse cx="240" cy="328" rx="88" ry="82" fill="url(#bellyGlow)" opacity="0.72"/>
+  <!-- Belly highlight -->
+  <ellipse cx="228" cy="312" rx="38" ry="44" fill="white" opacity="0.15"/>
+
+  <!-- ── Left arm ── -->
+  <path d="M185 222
+    C 162 244 150 270 152 296
+    C 154 320 166 342 186 356"
+    stroke="#E5849E" stroke-width="32" stroke-linecap="round" fill="none"/>
+  <path d="M185 222
+    C 162 244 150 270 152 296
+    C 154 320 166 342 186 356"
+    stroke="#F0A9BE" stroke-width="22" stroke-linecap="round" fill="none"/>
+  <!-- Left hand on belly -->
+  <ellipse cx="188" cy="360" rx="22" ry="16" fill="url(#skinGrad)"/>
+  <path d="M176 362 Q184 366 192 362" stroke="#F0A9BE" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+  <!-- ── Right arm ── -->
+  <path d="M295 222
+    C 318 244 330 270 328 296
+    C 326 320 314 342 294 356"
+    stroke="#E5849E" stroke-width="32" stroke-linecap="round" fill="none"/>
+  <path d="M295 222
+    C 318 244 330 270 328 296
+    C 326 320 314 342 294 356"
+    stroke="#F0A9BE" stroke-width="22" stroke-linecap="round" fill="none"/>
+  <!-- Right hand on belly -->
+  <ellipse cx="292" cy="360" rx="22" ry="16" fill="url(#skinGrad)"/>
+  <path d="M280 362 Q288 366 296 362" stroke="#F0A9BE" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Dress hem detail -->
+  <path d="M210 438 Q225 448 240 450 Q255 448 270 438" stroke="#D86C8A" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.4"/>
+
+  <!-- ── Floating hearts / sparkles around figure ── -->
+  <path d="M356 200 C354 195 348 194 348 200 C348 194 342 195 340 200 C338 208 348 215 348 218 C348 215 358 208 356 200Z" fill="#E5849E" opacity="0.5"/>
+  <path d="M136 218 C134 213 128 212 128 218 C128 212 122 213 120 218 C118 226 128 233 128 236 C128 233 138 226 136 218Z" fill="#E5849E" opacity="0.4"/>
+  <path d="M388 345 C387 342 383 341 383 345 C383 341 379 342 378 345 C377 349 383 353 383 355 C383 353 389 349 388 345Z" fill="#9CB29C" opacity="0.5"/>
+
+  <!-- Stars / sparkles -->
+  <path d="M110 248 L112 242 L114 248 L120 250 L114 252 L112 258 L110 252 L104 250 Z" fill="#E5849E" opacity="0.35"/>
+  <path d="M390 176 L391.5 172 L393 176 L397 177.5 L393 179 L391.5 183 L390 179 L386 177.5 Z" fill="#9CB29C" opacity="0.4"/>
+</svg>

@@ -1,0 +1,137 @@
+<svg viewBox="0 0 420 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="infoBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FBE3EA"/>
+      <stop offset="100%" stop-color="#F7C9D6" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="infoSkin" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FDF2F5"/>
+      <stop offset="100%" stop-color="#F7C9D6"/>
+    </radialGradient>
+    <linearGradient id="bookGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FBF6F1"/>
+      <stop offset="100%" stop-color="#F4E9DF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="210" cy="205" r="182" fill="url(#infoBg)"/>
+
+  <!-- Botanical leaves -->
+  <path d="M20 75 C28 40 62 35 58 68 C48 78 22 84 20 75Z" fill="#9CB29C" opacity="0.75"/>
+  <line x1="20" y1="75" x2="54" y2="46" stroke="#7E967E" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M5 115 C12 80 45 82 42 115 C33 126 7 132 5 115Z" fill="#9CB29C" opacity="0.6"/>
+  <path d="M382 58 C400 42 420 62 410 84 C396 94 372 80 382 58Z" fill="#9CB29C" opacity="0.7"/>
+  <path d="M395 100 C412 90 425 108 416 126 C404 133 385 120 395 100Z" fill="#7E967E" opacity="0.65"/>
+  <line x1="382" y1="58" x2="408" y2="78" stroke="#7E967E" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- ── FLOATING INFORMATION ELEMENTS ── -->
+
+  <!-- Floating book (top right) -->
+  <g transform="translate(320 78) rotate(-12)">
+    <rect x="-32" y="-22" width="64" height="44" rx="4" fill="url(#bookGrad)" stroke="#E5849E" stroke-width="1.5"/>
+    <!-- Spine -->
+    <rect x="-32" y="-22" width="8" height="44" rx="3" fill="#F0A9BE"/>
+    <!-- Lines on page -->
+    <line x1="-16" y1="-10" x2="22" y2="-10" stroke="#E5849E" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="-16" y1="-2" x2="22" y2="-2" stroke="#E5849E" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <line x1="-16" y1="6" x2="14" y2="6" stroke="#E5849E" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+    <line x1="-16" y1="14" x2="20" y2="14" stroke="#E5849E" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- Floating heart (left) -->
+  <g transform="translate(68 175) scale(1.4)">
+    <path d="M0 -10 C-2 -18 -14 -18 -14 -8 C-14 0 0 10 0 14 C0 10 14 0 14 -8 C14 -18 2 -18 0 -10Z" fill="#E5849E" opacity="0.6"/>
+  </g>
+
+  <!-- Floating star (top left) -->
+  <path d="M92 82 L95 72 L98 82 L108 85 L98 88 L95 98 L92 88 L82 85Z" fill="#9CB29C" opacity="0.5"/>
+
+  <!-- Floating leaf (right) -->
+  <path d="M360 235 C372 215 390 218 386 242 C378 254 356 256 360 235Z" fill="#9CB29C" opacity="0.65"/>
+  <line x1="360" y1="235" x2="383" y2="244" stroke="#7E967E" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Floating star bottom right -->
+  <path d="M348 308 L351 300 L354 308 L362 311 L354 314 L351 322 L348 314 L340 311Z" fill="#E5849E" opacity="0.4"/>
+
+  <!-- Small dot cluster -->
+  <circle cx="82" cy="300" r="4" fill="#E5849E" opacity="0.35"/>
+  <circle cx="72" cy="312" r="3" fill="#F0A9BE" opacity="0.4"/>
+  <circle cx="90" cy="315" r="2.5" fill="#E5849E" opacity="0.3"/>
+  <circle cx="346" cy="156" r="4" fill="#9CB29C" opacity="0.4"/>
+  <circle cx="360" cy="146" r="2.5" fill="#7E967E" opacity="0.35"/>
+
+  <!-- ── WOMAN FIGURE (seated, holding book) ── -->
+
+  <!-- Hair (bun, drawn first) -->
+  <ellipse cx="210" cy="95" rx="48" ry="50" fill="#C25B79"/>
+  <ellipse cx="194" cy="78" rx="22" ry="18" fill="#C25B79"/>
+  <path d="M164 115 Q158 140 162 162" stroke="#C25B79" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M256 115 Q262 138 258 162" stroke="#C25B79" stroke-width="14" stroke-linecap="round" fill="none"/>
+
+  <!-- Head -->
+  <ellipse cx="210" cy="98" rx="44" ry="48" fill="url(#infoSkin)"/>
+
+  <!-- Neck -->
+  <path d="M198 143 Q206 153 212 153 Q218 153 222 143 L220 170 L200 170Z" fill="url(#infoSkin)"/>
+
+  <!-- Body / dress -->
+  <path d="M172 174
+    C 162 200 158 230 162 260
+    C 165 288 174 312 180 338
+    C 188 358 200 368 210 370
+    C 220 368 232 358 240 338
+    C 246 312 255 288 258 260
+    C 262 230 258 200 248 174
+    L 172 174 Z"
+    fill="#E5849E"/>
+
+  <!-- Baby belly -->
+  <ellipse cx="210" cy="280" rx="74" ry="70" fill="#F0A9BE" opacity="0.68"/>
+  <ellipse cx="202" cy="265" rx="30" ry="36" fill="white" opacity="0.13"/>
+
+  <!-- ── Left arm (reaching forward to hold book) ── -->
+  <path d="M172 192
+    C 148 208 130 228 118 252
+    C 112 265 110 278 116 290"
+    stroke="#E5849E" stroke-width="28" stroke-linecap="round" fill="none"/>
+  <path d="M172 192
+    C 148 208 130 228 118 252
+    C 112 265 110 278 116 290"
+    stroke="#F0A9BE" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <!-- Left hand -->
+  <ellipse cx="118" cy="294" rx="18" ry="13" fill="url(#infoSkin)"/>
+
+  <!-- ── Right arm (reaching forward to hold book) ── -->
+  <path d="M248 192
+    C 272 208 290 228 302 252
+    C 308 265 310 278 304 290"
+    stroke="#E5849E" stroke-width="28" stroke-linecap="round" fill="none"/>
+  <path d="M248 192
+    C 272 208 290 228 302 252
+    C 308 265 310 278 304 290"
+    stroke="#F0A9BE" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <!-- Right hand -->
+  <ellipse cx="302" cy="294" rx="18" ry="13" fill="url(#infoSkin)"/>
+
+  <!-- ── Book being held (in front of belly) ── -->
+  <g transform="translate(210 295) rotate(-5)">
+    <rect x="-55" y="-38" width="110" height="76" rx="6" fill="url(#bookGrad)" stroke="#E5849E" stroke-width="2"/>
+    <!-- Spine in center (open book) -->
+    <line x1="0" y1="-38" x2="0" y2="38" stroke="#F0A9BE" stroke-width="2.5"/>
+    <!-- Lines left page -->
+    <line x1="-44" y1="-20" x2="-8" y2="-20" stroke="#E5849E" stroke-width="1.5" stroke-linecap="round" opacity="0.55"/>
+    <line x1="-44" y1="-10" x2="-8" y2="-10" stroke="#E5849E" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
+    <line x1="-44" y1="0" x2="-8" y2="0" stroke="#E5849E" stroke-width="1.5" stroke-linecap="round" opacity="0.38"/>
+    <line x1="-44" y1="10" x2="-24" y2="10" stroke="#E5849E" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+    <!-- Lines right page -->
+    <line x1="8" y1="-20" x2="44" y2="-20" stroke="#E5849E" stroke-width="1.5" stroke-linecap="round" opacity="0.55"/>
+    <line x1="8" y1="-10" x2="44" y2="-10" stroke="#E5849E" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
+    <line x1="8" y1="0" x2="44" y2="0" stroke="#E5849E" stroke-width="1.5" stroke-linecap="round" opacity="0.38"/>
+    <!-- Small heart on right page -->
+    <path d="M26 12 C25 9 21 9 21 13 C21 9 17 9 16 12 C15 17 21 21 21 23 C21 21 27 17 26 12Z" fill="#E5849E" opacity="0.55"/>
+  </g>
+
+  <!-- Seat / ground suggestion -->
+  <ellipse cx="210" cy="370" rx="120" ry="16" fill="#E5849E" opacity="0.15"/>
+</svg>

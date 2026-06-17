@@ -1,0 +1,129 @@
+<svg viewBox="0 0 420 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="yogaBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FBE3EA"/>
+      <stop offset="100%" stop-color="#F7C9D6" stop-opacity="0.3"/>
+    </radialGradient>
+    <radialGradient id="yogaSkin" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FDF2F5"/>
+      <stop offset="100%" stop-color="#F7C9D6"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="210" cy="205" r="185" fill="url(#yogaBg)"/>
+
+  <!-- Yoga mat -->
+  <ellipse cx="210" cy="358" rx="145" ry="20" fill="#E5849E" opacity="0.2"/>
+  <ellipse cx="210" cy="358" rx="130" ry="12" fill="#D86C8A" opacity="0.15"/>
+
+  <!-- Leaves / botanical -->
+  <path d="M25 88 C32 52 65 48 62 82 C52 92 28 96 25 88Z" fill="#9CB29C" opacity="0.75"/>
+  <line x1="25" y1="88" x2="58" y2="58" stroke="#7E967E" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M8 130 C15 95 48 98 44 132 C35 142 10 148 8 130Z" fill="#9CB29C" opacity="0.6"/>
+  <path d="M375 70 C395 50 418 72 408 96 C394 106 368 90 375 70Z" fill="#9CB29C" opacity="0.7"/>
+  <line x1="375" y1="70" x2="406" y2="88" stroke="#7E967E" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M390 110 C410 98 425 118 415 138 C402 145 382 132 390 110Z" fill="#7E967E" opacity="0.65"/>
+
+  <!-- Decorative dots -->
+  <circle cx="80" cy="48" r="4" fill="#E5849E" opacity="0.45"/>
+  <circle cx="92" cy="36" r="2.5" fill="#F0A9BE" opacity="0.55"/>
+  <circle cx="338" cy="352" r="4" fill="#9CB29C" opacity="0.4"/>
+  <circle cx="350" cy="340" r="3" fill="#7E967E" opacity="0.45"/>
+
+  <!-- ── WOMAN IN BUTTERFLY (BADDHA KONASANA) POSE ── -->
+
+  <!-- Hair (bun) -->
+  <ellipse cx="210" cy="90" rx="50" ry="52" fill="#C25B79"/>
+  <ellipse cx="196" cy="72" rx="22" ry="18" fill="#C25B79"/>
+  <!-- Hair strands side -->
+  <path d="M162 110 Q156 132 160 155" stroke="#C25B79" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <path d="M258 110 Q264 132 260 155" stroke="#C25B79" stroke-width="14" stroke-linecap="round" fill="none"/>
+
+  <!-- Head -->
+  <ellipse cx="210" cy="95" rx="44" ry="48" fill="url(#yogaSkin)"/>
+
+  <!-- Neck -->
+  <path d="M198 140 Q206 150 212 150 Q218 150 222 140 L220 168 L200 168Z" fill="url(#yogaSkin)"/>
+
+  <!-- Body / dress (front facing seated) -->
+  <path d="M175 172
+    C 165 195 162 215 165 235
+    C 168 258 175 280 180 305
+    C 185 325 192 340 210 345
+    C 228 340 235 325 240 305
+    C 245 280 252 258 255 235
+    C 258 215 255 195 245 172
+    L 175 172 Z"
+    fill="#E5849E"/>
+
+  <!-- Baby belly overlay -->
+  <ellipse cx="210" cy="270" rx="72" ry="68" fill="#F0A9BE" opacity="0.7"/>
+  <ellipse cx="202" cy="256" rx="30" ry="36" fill="white" opacity="0.14"/>
+
+  <!-- ── Left arm – reaching down to left foot ── -->
+  <path d="M175 185
+    C 152 200 135 222 122 248
+    C 112 268 108 290 114 308"
+    stroke="#E5849E" stroke-width="28" stroke-linecap="round" fill="none"/>
+  <path d="M175 185
+    C 152 200 135 222 122 248
+    C 112 268 108 290 114 308"
+    stroke="#F0A9BE" stroke-width="20" stroke-linecap="round" fill="none"/>
+
+  <!-- ── Right arm – reaching down to right foot ── -->
+  <path d="M245 185
+    C 268 200 285 222 298 248
+    C 308 268 312 290 306 308"
+    stroke="#E5849E" stroke-width="28" stroke-linecap="round" fill="none"/>
+  <path d="M245 185
+    C 268 200 285 222 298 248
+    C 308 268 312 290 306 308"
+    stroke="#F0A9BE" stroke-width="20" stroke-linecap="round" fill="none"/>
+
+  <!-- ── Left leg (butterfly – knee out left) ── -->
+  <path d="M180 338
+    C 165 348 138 358 115 358
+    C 98 358 84 352 80 342"
+    stroke="#D86C8A" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M180 338
+    C 165 348 138 358 115 358
+    C 98 358 84 352 80 342"
+    stroke="#F0A9BE" stroke-width="18" stroke-linecap="round" fill="none"/>
+
+  <!-- ── Right leg (butterfly – knee out right) ── -->
+  <path d="M240 338
+    C 255 348 282 358 305 358
+    C 322 358 336 352 340 342"
+    stroke="#D86C8A" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M240 338
+    C 255 348 282 358 305 358
+    C 322 358 336 352 340 342"
+    stroke="#F0A9BE" stroke-width="18" stroke-linecap="round" fill="none"/>
+
+  <!-- Feet touching at center -->
+  <ellipse cx="210" cy="358" rx="32" ry="16" fill="#F7C9D6"/>
+  <!-- Foot sole highlight -->
+  <ellipse cx="204" cy="355" rx="16" ry="8" fill="white" opacity="0.2"/>
+
+  <!-- Left hand near left foot -->
+  <ellipse cx="118" cy="312" rx="18" ry="13" fill="url(#yogaSkin)"/>
+  <!-- Right hand near right foot -->
+  <ellipse cx="302" cy="312" rx="18" ry="13" fill="url(#yogaSkin)"/>
+
+  <!-- ── Breath / motion lines ── -->
+  <path d="M65 200 Q72 193 79 200" stroke="#9CB29C" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M58 215 Q68 205 78 215" stroke="#9CB29C" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M55 230 Q68 218 81 230" stroke="#9CB29C" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.35"/>
+
+  <path d="M355 200 Q362 193 369 200" stroke="#9CB29C" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M350 215 Q360 205 370 215" stroke="#9CB29C" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M347 230 Q360 218 373 230" stroke="#9CB29C" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.35"/>
+
+  <!-- Sparkle / energy dots -->
+  <path d="M335 165 L336.5 161 L338 165 L342 166.5 L338 168 L336.5 172 L335 168 L331 166.5Z" fill="#E5849E" opacity="0.4"/>
+  <path d="M78 160 L79.5 156 L81 160 L85 161.5 L81 163 L79.5 167 L78 163 L74 161.5Z" fill="#9CB29C" opacity="0.4"/>
+
+  <!-- Heart near belly -->
+  <path d="M224 286 C222 282 217 281 217 286 C217 281 212 282 210 286 C208 292 217 298 217 300 C217 298 226 292 224 286Z" fill="#E5849E" opacity="0.45"/>
+</svg>
