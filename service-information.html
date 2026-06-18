@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pre-Natal Information — Ankita's Care Clinic</title>
+  <meta name="description" content="Clear, reliable antenatal guidance covering nutrition, trimester changes, labour preparation, breastfeeding and newborn care — led by Dr. Ankita Panchal." />
+  <meta name="theme-color" content="#FBF6F1" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Pre-Natal Information — Ankita's Care Clinic" />
+  <meta property="og:description" content="Knowledge sessions covering every stage of pregnancy, from nutrition to newborn care." />
+  <meta property="og:image" content="assets/images/logo.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-white focus:px-5 focus:py-2 focus:text-rose-700 focus:shadow-soft">Skip to content</a>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header" data-header>
+    <div class="container-page">
+      <div class="header-bar flex items-center justify-between py-4 transition-all duration-300">
+        <a href="index.html" class="flex items-center" aria-label="Ankita's Care Clinic — home">
+          <img src="assets/images/logo.png" alt="Ankita's Care Clinic" class="h-11 w-auto object-contain sm:h-12" />
+        </a>
+        <nav class="hidden items-center gap-1 lg:flex" aria-label="Primary">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="services.html" class="nav-link is-active">Services</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+        <div class="hidden lg:block">
+          <a href="contact.html" class="btn-primary">Book a Consultation</a>
+        </div>
+        <button type="button" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/70 text-ink shadow-soft lg:hidden" data-nav-toggle aria-expanded="false" aria-label="Open menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile drawer -->
+  <div class="fixed inset-0 z-50 bg-ink/30 opacity-0 pointer-events-none backdrop-blur-sm transition-opacity duration-300 lg:hidden" data-nav-backdrop></div>
+  <aside class="fixed right-0 top-0 z-50 flex h-full w-[82%] max-w-sm translate-x-full flex-col bg-cream px-7 py-6 shadow-card transition-transform duration-300 ease-out lg:hidden" data-nav-drawer aria-label="Mobile menu">
+    <div class="flex items-center justify-between">
+      <span class="font-serif text-lg text-ink">Menu</span>
+      <button type="button" class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-ink shadow-soft" data-nav-close aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <nav class="mt-10 flex flex-col gap-2 text-lg" aria-label="Mobile primary">
+      <a href="index.html" class="rounded-2xl px-4 py-3 font-medium text-ink hover:bg-blush-100">Home</a>
+      <a href="about.html" class="rounded-2xl px-4 py-3 font-medium text-ink hover:bg-blush-100">About</a>
+      <a href="services.html" class="rounded-2xl px-4 py-3 font-medium text-rose-700 bg-blush-100">Services</a>
+      <a href="contact.html" class="rounded-2xl px-4 py-3 font-medium text-ink hover:bg-blush-100">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn-primary mt-auto w-full">Book a Consultation</a>
+  </aside>
+
+  <main id="main">
+    <!-- ===== Hero ===== -->
+    <section class="relative overflow-hidden bg-warm-gradient pt-32 pb-16 md:pt-40 md:pb-20">
+      <div class="pointer-events-none absolute -left-10 -top-10 h-40 w-40 rounded-full bg-blush-200/50 blur-3xl sm:-left-24 sm:-top-20 sm:h-72 sm:w-72"></div>
+      <div class="container-page relative">
+        <a href="services.html" class="reveal mb-6 inline-flex items-center gap-2 text-sm font-medium text-rose-700 hover:text-rose-600">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+          Back to all services
+        </a>
+        <div class="grid items-center gap-12 lg:grid-cols-2">
+          <div>
+            <span class="eyebrow reveal">Knowledge & confidence</span>
+            <h1 class="heading-xl reveal mt-5">Pre-Natal Information</h1>
+            <p class="lead reveal mt-6 max-w-xl">The right information during pregnancy instils confidence — so you can approach every trimester, every change in your body, and the birth itself with clarity and calm.</p>
+            <div class="reveal mt-8 flex flex-wrap gap-4">
+              <a href="contact.html" class="btn-primary">Book a Consultation</a>
+              <a href="services.html" class="btn-secondary">View all services</a>
+            </div>
+          </div>
+          <div class="reveal" data-reveal-delay="150">
+            <div class="relative mx-auto max-w-sm px-4 py-4">
+              <div class="absolute inset-0 -rotate-3 rounded-5xl bg-blush-100"></div>
+              <img src="assets/images/service-info.svg" alt="Pre-Natal Information" class="relative w-full drop-shadow-xl" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Why this matters ===== -->
+    <section class="section bg-cream-200/60">
+      <div class="container-page">
+        <div class="reveal mx-auto max-w-3xl text-center">
+          <span class="eyebrow">Why it matters</span>
+          <h2 class="heading-lg mt-4">Knowledge is the best preparation</h2>
+          <p class="lead mt-5">Pregnancy brings rapid changes to your body — and very little formal guidance is given to help you understand them. Becoming a mother is a precious and challenging journey. A mother who understands what is happening in her body is able to manage discomforts, prepare for labour and recover with far greater confidence.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== What's covered ===== -->
+    <section class="section">
+      <div class="container-page">
+        <div class="reveal mx-auto max-w-2xl text-center">
+          <span class="eyebrow">Session content</span>
+          <h2 class="heading-lg mt-4">What we cover in our knowledge sessions</h2>
+          <p class="lead mt-4">Each topic is explained simply and thoroughly, so nothing feels overwhelming.</p>
+        </div>
+
+        <div class="mt-14 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="card reveal">
+            <span class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blush-100 text-rose-600">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>
+            </span>
+            <h3 class="mt-5 text-lg font-semibold">Exercise & Posture</h3>
+            <p class="mt-3 text-sm text-ink-light">Why staying active matters during pregnancy, how to maintain good posture and relieve the aches that come with a growing bump.</p>
+          </div>
+          <div class="card reveal" data-reveal-delay="80">
+            <span class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blush-100 text-rose-600">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg>
+            </span>
+            <h3 class="mt-5 text-lg font-semibold">Nutrition & Lifestyle</h3>
+            <p class="mt-3 text-sm text-ink-light">What to eat, what to avoid, and how to build daily habits that nourish both you and your baby through every trimester.</p>
+          </div>
+          <div class="card reveal" data-reveal-delay="160">
+            <span class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blush-100 text-rose-600">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+            </span>
+            <h3 class="mt-5 text-lg font-semibold">Trimester by Trimester</h3>
+            <p class="mt-3 text-sm text-ink-light">A clear, reassuring explanation of what happens in your body in each trimester — and how to care for yourself through each stage.</p>
+          </div>
+          <div class="card reveal" data-reveal-delay="80">
+            <span class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blush-100 text-rose-600">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </span>
+            <h3 class="mt-5 text-lg font-semibold">Normal Labour</h3>
+            <p class="mt-3 text-sm text-ink-light">Understanding the stages of normal labour, what to expect, and how to work with your body to make the experience as smooth as possible.</p>
+          </div>
+          <div class="card reveal" data-reveal-delay="160">
+            <span class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blush-100 text-rose-600">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </span>
+            <h3 class="mt-5 text-lg font-semibold">Caesarean Preparation</h3>
+            <p class="mt-3 text-sm text-ink-light">What a Caesarean section involves, how to prepare mentally and physically, and what recovery looks like so there are no surprises.</p>
+          </div>
+          <div class="card reveal" data-reveal-delay="240">
+            <span class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blush-100 text-rose-600">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </span>
+            <h3 class="mt-5 text-lg font-semibold">Breastfeeding & Newborn Care</h3>
+            <p class="mt-3 text-sm text-ink-light">Guidance on breastfeeding, understanding your newborn's needs and taking care of yourself in the early days and weeks after birth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Post-natal note ===== -->
+    <section class="section bg-cream-200/60">
+      <div class="container-page grid items-center gap-12 lg:grid-cols-2">
+        <div class="reveal">
+          <span class="eyebrow">Beyond birth</span>
+          <h2 class="heading-lg mt-4">Post-natal recovery & self-care</h2>
+          <p class="lead mt-5">Ankita's Care also prepares you for life after delivery. Understanding post-natal recovery helps new mothers rebuild strength, manage the physical demands of a new baby, and care for themselves with the same attention they give their child.</p>
+          <ul class="mt-7 space-y-3">
+            <li class="flex items-start gap-3"><span class="mt-1 text-rose-500"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><span class="text-ink-light">Post-delivery exercises to aid recovery and reduce post-natal fat</span></li>
+            <li class="flex items-start gap-3"><span class="mt-1 text-rose-500"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><span class="text-ink-light">Breastfeeding support and guidance</span></li>
+            <li class="flex items-start gap-3"><span class="mt-1 text-rose-500"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><span class="text-ink-light">Understanding and caring for your newborn baby</span></li>
+            <li class="flex items-start gap-3"><span class="mt-1 text-rose-500"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><span class="text-ink-light">Emotional wellbeing and self-care for the new mother</span></li>
+          </ul>
+        </div>
+        <div class="reveal" data-reveal-delay="120">
+          <blockquote class="rounded-5xl bg-blush-100 p-8 sm:p-10">
+            <p class="font-serif text-xl leading-relaxed text-ink">"The right information and preparation during pregnancy instils the confidence in a woman to birth her baby with an intense feeling of joy, satisfaction and achievement."</p>
+            <footer class="mt-6 font-semibold text-rose-700">— Dr. Ankita Panchal</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Other services ===== -->
+    <section class="section">
+      <div class="container-page">
+        <div class="reveal mx-auto max-w-xl text-center">
+          <span class="eyebrow">Also offered</span>
+          <h2 class="heading-lg mt-4">Explore our other programs</h2>
+        </div>
+        <div class="mt-10 grid gap-6 sm:grid-cols-2">
+          <a href="service-exercises.html" class="card card-hover reveal flex items-center gap-5">
+            <img src="assets/images/service-yoga.svg" alt="" class="h-20 w-20 flex-none" />
+            <div>
+              <h3 class="font-semibold text-ink">Pre-Natal Exercises & Yoga</h3>
+              <p class="mt-1 text-sm text-ink-light">Safe, guided movement for every trimester</p>
+              <span class="mt-2 inline-flex items-center gap-1 text-sm font-semibold text-rose-700">Learn more <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a href="service-garbh-sanskar.html" class="card card-hover reveal flex items-center gap-5" data-reveal-delay="120">
+            <img src="assets/images/service-garbh.svg" alt="" class="h-20 w-20 flex-none" />
+            <div>
+              <h3 class="font-semibold text-ink">Garbh Sanskar</h3>
+              <p class="mt-1 text-sm text-ink-light">Nurturing your baby through music & meditation</p>
+              <span class="mt-2 inline-flex items-center gap-1 text-sm font-semibold text-rose-700">Learn more <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="section bg-cream-200/60">
+      <div class="container-page">
+        <div class="reveal relative overflow-hidden rounded-5xl bg-rose-gradient px-6 py-10 text-center text-white shadow-card sm:px-8 sm:py-14 md:px-16 md:py-20">
+          <div class="pointer-events-none absolute -right-10 -top-10 h-52 w-52 rounded-full bg-white/15 blur-2xl"></div>
+          <h2 class="relative font-serif text-3xl leading-tight text-white sm:text-4xl">Ready to feel informed and in control?</h2>
+          <p class="relative mx-auto mt-4 max-w-xl text-white/90">Book a consultation and take the first step towards a confident, joyful pregnancy.</p>
+          <div class="relative mt-8 flex flex-wrap justify-center gap-4">
+            <a href="contact.html" class="btn bg-white text-rose-700 hover:-translate-y-0.5 hover:shadow-glow">Book a Consultation</a>
+            <a href="services.html" class="btn border border-white/40 text-white hover:bg-white/10">View all services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="bg-ink text-cream-100">
+    <div class="container-page py-16">
+      <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+        <div class="lg:col-span-2 max-w-sm">
+          <div class="flex items-center gap-3">
+            <span class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-white p-1.5"><img src="assets/images/logo.png" alt="" class="h-full w-full object-contain" /></span>
+            <span class="font-serif text-xl text-white">Ankita's Care Clinic</span>
+          </div>
+          <p class="mt-5 text-sm leading-relaxed text-cream-100/70">Compassionate, expert prenatal care — exercises, yoga, antenatal guidance and Garbh Sanskar to help you birth your baby with confidence and joy.</p>
+          <div class="mt-6 flex gap-3">
+            <a href="https://www.facebook.com/PregnancyExercisesInformation" target="_blank" rel="noopener" class="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-rose-500" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H7v3h3v7h3v-7h3l1-3h-4v-2c0-.55.45-1 1-1z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/ankitascare/" target="_blank" rel="noopener" class="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-rose-500" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold uppercase tracking-wider text-white">Explore</h3>
+          <ul class="mt-4 space-y-2.5 text-sm text-cream-100/70">
+            <li><a href="index.html" class="transition hover:text-rose-300">Home</a></li>
+            <li><a href="about.html" class="transition hover:text-rose-300">About</a></li>
+            <li><a href="services.html" class="transition hover:text-rose-300">Services</a></li>
+            <li><a href="contact.html" class="transition hover:text-rose-300">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold uppercase tracking-wider text-white">Get in touch</h3>
+          <ul class="mt-4 space-y-2.5 text-sm text-cream-100/70">
+            <li><a href="mailto:ankitacare@yahoo.com" class="transition hover:text-rose-300">ankitacare@yahoo.com</a></li>
+            <li><a href="contact.html" class="transition hover:text-rose-300">Book a consultation</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-12 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-sm text-cream-100/60 sm:flex-row">
+        <p>Copyright © <span data-year>2024</span> Ankita's Care Clinic. All rights reserved.</p>
+        <p>Made with care for mothers-to-be.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
